@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js">
+    <link rel="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <title>Employee Details</title>
+</head>
+<body class="bg-secondary">
+    <div class="container bg-dark text-light py-4 align-items-center justify-content-center text-center">
+        <h1>Employee Details</h1>
+    </div>
+
+    <div class="align-items-center justify-content-center text-center my-4">
+        <button class="btn btn-primary" onclick="getEmployees()">Get Employees</button>
+    </div>
+
+    <div class="pull-left text-center w-25 m-5 p-4 border rounded d-inline-block bg-info">
+        <form name="empForm" onsubmit="setEmployees(event,empForm)" id="empForm">
+            <div class="form-group">
+                <label class="text-left" for="Name">Employee_Name:</label>
+                <input class="form-control" type="text" placeholder="Enter name" id="Name" name="empName" required><br>
+            </div>
+            <div class="form-group">
+                <label class="text-left" for="Emial Id">Email Id:</label>
+                <input class="form-control" type="text" placeholder="Enter email" id="Email" name="emailId" required><br>
+            </div>
+            <div class="form-group">
+                <label class="text-left" for="Salary">Salary:</label>
+                <input class="form-control" type="text" placeholder="Enter salary" id="Salary" name="salary" required><br>
+            </div>
+            <br>
+            <input class="form-control btn btn-success" type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div id="table" class="justify-content-end align-items-right w-50 d-inline-block">
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>

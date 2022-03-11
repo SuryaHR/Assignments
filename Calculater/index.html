@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculater</title>
+        <link rel="stylesheet" href="calc.css">
+    </head>
+    <body>
+        <h1>This is the Calculater Designed By me...</h1>
+
+        <div class="calc">
+            <div class="row screen">
+                <div id="display"></div>
+                <span id="operator"></span>
+            </div>
+            <div class="row">
+                <button class="num" value="7" onclick="clickHandler(event)">7</button>
+                <button class="num" value="8" onclick="clickHandler(event)">8</button>
+                <button class="num" value="9" onclick="clickHandler(event)">9</button>
+            </div>
+            <div class="row">
+                <button class="num" value="4" onclick="clickHandler(event)">4</button>
+                <button class="num" value="5" onclick="clickHandler(event)">5</button>
+                <button class="num" value="6" onclick="clickHandler(event)">6</button>
+            </div>
+            <div class="row">
+                <button class="num" value="1" onclick="clickHandler(event)">1</button>
+                <button class="num" value="2" onclick="clickHandler(event)">2</button>
+                <button class="num" value="3" onclick="clickHandler(event)">3</button>
+            </div>
+            <div class="row">
+                <button class="num" value="back" onclick="clickHandler(event)">back</button>
+                <button class="num" value="0" onclick="clickHandler(event)">0</button>
+                <button class="num" value="reset" onclick="clickHandler(event)">reset</button>
+            </div>
+            <div class="row">
+                <button class="opp" value="+" onclick="clickHandler(event)">+</button>
+                <button class="opp" value="-" onclick="clickHandler(event)">-</button>
+                <button class="opp" value="*" onclick="clickHandler(event)">*</button>
+                <button class="opp" value="/" onclick="clickHandler(event)">/</button>
+                <button class="opp" value="=" onclick="clickHandler(event)">=</button>
+            </div>
+        </div>
+
+        <script src="calc.js"></script>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(17, 230, 230);
+    text-align: center;
+}
+
+.calc{
+    margin: 50px auto;
+    width: 40%;
+    border: 2px solid black;
+    padding: 15px;
+    font-size: x-large;
+    background-color: rgba(13, 16, 189, 0.856);
+    border-radius: 20px;
+}
+
+.row{
+    margin: 10px auto;
+    border: 0.5px solid black;
+    width: 90%;
+    padding: 5px;
+    background-color: #e4dfd0;
+    border-radius: 15px;
+}
+
+.screen{
+    height: 50px;
+    background-color: white;
+}
+
+#operator{
+    float: right;
+}
+
+.num{
+    display: inline-block;
+    width: 32%;
+    height: 35px;
+    border: 0.5px solid black;
+    background-color: rgb(144, 247, 238);
+    border-radius: 7px;
+}
+
+.opp{
+    display: inline-block;
+    width: 18%;
+    height: 35px;
+    border: 0.5px solid black;
+    background-color: rgb(227, 181, 250);
+    border-radius: 7px;
+}
+
+.num:hover, .opp:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #378b8b;
+}

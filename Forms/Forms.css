@@ -1,0 +1,33 @@
+div{
+    margin: 10px;
+}
+
+.body{
+    margin: 20px auto;
+    border: 1px solid black;
+    width: 800px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.button{
+    float: right;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#form{
+    display: none;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#table{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+ tr , th , td{
+    margin: 5px;
+}
+
